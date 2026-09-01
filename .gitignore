@@ -1,0 +1,17 @@
+# Local environments and build noise. Kept out of the repository so a clone is the
+# application and nothing else.
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Editor and OS scratch
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local-only helper files
+.requirements-utf8.txt
