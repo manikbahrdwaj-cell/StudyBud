@@ -14,11 +14,11 @@
       "order": 0,
       "test_cases": [
         {
-          "manual_test_case_item_id": 1000218,
-          "test_case_id": "TC-493",
-          "test_case_title": "End-to-end: User login process",
+          "manual_test_case_item_id": 1000226,
+          "test_case_id": "TC-501",
+          "test_case_title": "End-to-end: Study Room Creation Journey",
           "is_critical": true,
-          "script_path": "smoke/test_end_to_end_user_login_process_projectsbrs.spec.ts",
+          "script_path": "smoke/test_end_to_end_study_room_creation_journey_projectsbrs.spec.ts",
           "framework": "playwright",
           "language": "typescript"
         }
@@ -32,9 +32,9 @@
     "missing_script": [],
     "missing_stage": [
       {
-        "item_id": 1000226,
-        "test_case_id": "TC-501",
-        "test_case_title": "End-to-end: Study Room Creation Journey"
+        "item_id": 1000218,
+        "test_case_id": "TC-493",
+        "test_case_title": "End-to-end: User login process"
       }
     ],
     "stage_mismatch": [],
@@ -91,12 +91,6 @@
         "item_id": 1000222,
         "test_case_id": "TC-497",
         "test_case_title": "End-to-end: Room update by owner",
-        "approval_status": "DRAFT"
-      },
-      {
-        "item_id": 1000226,
-        "test_case_id": "TC-501",
-        "test_case_title": "End-to-end: Study Room Creation Journey",
         "approval_status": "DRAFT"
       },
       {
