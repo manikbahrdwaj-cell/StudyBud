@@ -1,0 +1,134 @@
+{
+  "project_key": "SBRS",
+  "generated_at": "2026-10-01T10:28:28.511684+00:00",
+  "script_directory": "tests/automation",
+  "requested_stages": [
+    "SMOKE",
+    "FUNCTIONAL",
+    "REGRESSION",
+    "PERFORMANCE"
+  ],
+  "stages": [
+    {
+      "stage": "SMOKE",
+      "order": 0,
+      "test_cases": [
+        {
+          "manual_test_case_item_id": 1000218,
+          "test_case_id": "TC-493",
+          "test_case_title": "End-to-end: User login process",
+          "is_critical": true,
+          "script_path": "smoke/test_end_to_end_user_login_process_projectsbrs.spec.ts",
+          "framework": "playwright",
+          "language": "typescript"
+        }
+      ]
+    }
+  ],
+  "total_test_cases": 1,
+  "skipped_no_script": 0,
+  "skipped_item_ids": [],
+  "diagnostics": {
+    "missing_script": [],
+    "missing_stage": [
+      {
+        "item_id": 1000226,
+        "test_case_id": "TC-501",
+        "test_case_title": "End-to-end: Study Room Creation Journey"
+      }
+    ],
+    "stage_mismatch": [],
+    "unapproved": [
+      {
+        "item_id": 1000216,
+        "test_case_id": "TC-491",
+        "test_case_title": "Verify user can log in with valid credentials",
+        "approval_status": "DRAFT"
+      },
+      {
+        "item_id": 1000220,
+        "test_case_id": "TC-495",
+        "test_case_title": "Verify room owner can update room details",
+        "approval_status": "DRAFT"
+      },
+      {
+        "item_id": 1000224,
+        "test_case_id": "TC-499",
+        "test_case_title": "Verify successful study room creation",
+        "approval_status": "DRAFT"
+      },
+      {
+        "item_id": 1000228,
+        "test_case_id": "TC-503",
+        "test_case_title": "Verify room deletion by owner",
+        "approval_status": "DRAFT"
+      },
+      {
+        "item_id": 1000221,
+        "test_case_id": "TC-496",
+        "test_case_title": "Verify non-owner cannot access room edit",
+        "approval_status": "DRAFT"
+      },
+      {
+        "item_id": 1000225,
+        "test_case_id": "TC-500",
+        "test_case_title": "Verify room creation rejects empty room name",
+        "approval_status": "DRAFT"
+      },
+      {
+        "item_id": 1000229,
+        "test_case_id": "TC-504",
+        "test_case_title": "Verify non-owner cannot delete room",
+        "approval_status": "DRAFT"
+      },
+      {
+        "item_id": 1000218,
+        "test_case_id": "TC-493",
+        "test_case_title": "End-to-end: User login process",
+        "approval_status": "AUTOMATED"
+      },
+      {
+        "item_id": 1000222,
+        "test_case_id": "TC-497",
+        "test_case_title": "End-to-end: Room update by owner",
+        "approval_status": "DRAFT"
+      },
+      {
+        "item_id": 1000226,
+        "test_case_id": "TC-501",
+        "test_case_title": "End-to-end: Study Room Creation Journey",
+        "approval_status": "DRAFT"
+      },
+      {
+        "item_id": 1000230,
+        "test_case_id": "TC-505",
+        "test_case_title": "End-to-end: Room deletion by owner",
+        "approval_status": "DRAFT"
+      },
+      {
+        "item_id": 1000219,
+        "test_case_id": "TC-494",
+        "test_case_title": "Non-Functional: User Authentication Performance",
+        "approval_status": "DRAFT"
+      },
+      {
+        "item_id": 1000223,
+        "test_case_id": "TC-498",
+        "test_case_title": "Non-Functional: Room Update Performance",
+        "approval_status": "DRAFT"
+      },
+      {
+        "item_id": 1000227,
+        "test_case_id": "TC-502",
+        "test_case_title": "Non-Functional: Study Room Creation Performance",
+        "approval_status": "DRAFT"
+      },
+      {
+        "item_id": 1000231,
+        "test_case_id": "TC-506",
+        "test_case_title": "Non-Functional: Room Deletion Performance",
+        "approval_status": "DRAFT"
+      }
+    ]
+  }
+}
